@@ -1,13 +1,12 @@
 .populares {
   grid-area: common;
   padding: 3rem 0;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 }
 
 .populares__conteudo {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   padding: 1rem 0rem;
 }
 
