@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.menu__item {
+  display: flex;
+  gap: 2rem;
+}
+.menu__link {
+  color: white;
+}
+.menu__link:hover, .menu__link.ativo{
+  border-bottom: 2px solid white;
+}

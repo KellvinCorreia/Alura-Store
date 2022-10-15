@@ -10,16 +10,27 @@
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/highlights.css" />
     <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/menu.css">
   </head>
   <body class="app">
     <header class="cabecalho">
-      <nav>
-        <ul class="menu">
-          <li>Jogos</li>
-          <li>Aplicativos</li>
-          <li>Configurações</li>
+      <nav class="menu">
+        <ul class="menu__lista">
+            <li class="menu__item">
+                <a class="menu__link ativo" href="#">
+                    <i class="fas fa-home"></i>
+                    Início
+                </a>
+                <a class="menu__link" href="#">
+                    <i class="fas fa-mobile-alt"></i>
+                    Aplicativos</a>
+                <a class="menu__link" href="#">
+                    <i class="fas fa-gamepad"></i>
+                    Jogos
+                </a>
+            </li>
         </ul>
-      </nav>
+    </nav>
     </header>
     <main class="conteudo">
       <section class="destaques">

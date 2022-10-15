@@ -1,5 +1,7 @@
 html {
   font-size: 62.5%;
+  width: 100%;
+  height: 100%;
 }
 .app {
   font-size: 1.6rem;
@@ -14,12 +16,13 @@ html {
     'footer';
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
-  width: 90%;
-  margin: 0 auto;
+  width: 95%;
+  margin-inline: auto;
 }
 
 .cabecalho {
   grid-area: header;
+  height: 5rem;
 }
 
 .conteudo {
